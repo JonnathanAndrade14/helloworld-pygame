@@ -25,7 +25,9 @@ class Utilities:
             if y + fontHeight > rect.bottom:
                 break
 
-            # determine maximum width of line
+            # determine maximum width of line 
+            #hola
+            #como estas
             while font.size(text[:i])[0] < rect.width and i < len(text):
                 i += 1
 

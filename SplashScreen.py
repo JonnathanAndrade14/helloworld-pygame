@@ -17,8 +17,8 @@ class SplashScreen:
         self.ut = Utilities()
 
     def start(self):
-        width = 800
-        height = 600
+        width = 400
+        height = 200
         infoObject = pygame.display.Info()
         swidth, sheight = infoObject.current_w,infoObject.current_h
         
@@ -30,10 +30,10 @@ class SplashScreen:
         _font = pygame.font.SysFont('Times New Roman',27)
         #_font = pygame.freetype.SysFont('Arial', 20)
         
-        giiata_logo = pygame.image.load('./images/Logo-GIIATa.png')
+        giiata_logo = pygame.image.load('./images/logo.png')
         giiata_logo = pygame.transform.scale(giiata_logo, (180,160))
         
-        robot = pygame.image.load('./images/Blue-Robot.png')
+        robot = pygame.image.load('./images/bici.png')
         robot = pygame.transform.scale(robot, (128, 128))
         
         screen = pygame.display.set_mode((width, height))

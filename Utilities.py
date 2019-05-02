@@ -26,6 +26,7 @@ class Utilities:
                 break
 
             # determine maximum width of line
+            #hola hola
             while font.size(text[:i])[0] < rect.width and i < len(text):
                 i += 1
 
